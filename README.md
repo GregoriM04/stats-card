@@ -33,8 +33,8 @@ This is how my solution looks like.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Repository URL: [Link of the repository](https://github.com/GregoriM04/stats-preview-card.git)
+- Live Site URL: [Stats Preview Card](https://your-live-site-url.com)
 
 
 ## My process
