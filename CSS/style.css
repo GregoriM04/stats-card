@@ -1,0 +1,221 @@
+/* FONTS USED */
+@import url(https://fonts.google.com/specimen/Inter);
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+
+/* COLORS USED */
+:root {
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-saturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightly-transparent-white-main: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white-stat: hsla(0, 0%, 100%, 0.6);
+}
+
+/* GENERAL STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+}
+
+/* MAIN STYLE */
+.container {
+    padding: 90px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;    
+}
+
+.card_info {
+    background-color: var(--dark-saturated-blue);
+    padding: 60px;
+    width: 540px;
+    height: 406px;
+    border-radius: 10px 0 0 10px;
+}
+
+.text_title {
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 35.5px;
+    margin: 5px 0;
+}
+
+.purple_word {
+    color: var(--soft-violet);
+}
+
+.text_paragraph {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 0 30px 0;
+    padding-right: 60px;
+    line-height: 22px;
+}
+
+.our_stat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 75px 0 0;
+}
+
+.stats_num {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 21px;
+    font-family: 'Inter', sans-serif;
+}
+
+.stats_num .stats_word {
+    font-weight: 400;
+    font-size: 11px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 4px 0;
+}
+
+.upperm {
+    text-transform: uppercase;
+}
+
+.desktop_header {
+    background-image: linear-gradient(0deg,  hsla(277, 96%, 27%, 0.548), hsla(277, 94%, 35%, 0.6)),
+    url('/images/image-header-desktop.jpg');
+    width: 520px;
+    height: 406px;
+    background-size: cover;
+    color: var(--white);
+    border-radius: 0 10px 10px 0;
+}
+
+/* FOOTER */
+.attribution { 
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+/* ========== MEDIA QUERY APPLIED ========== */
+@media (min-width: 1440px) {
+    .card {
+        margin-top: 135px;
+    }
+}
+
+@media (max-width: 1206px) and (min-width: 1075px) {
+    .card_info {
+        padding: 44.4px;
+        width: 400px;
+        height: 300.44px;
+    }
+
+    .text_title {
+        font-size: 26.27px;
+    }
+
+    .text_paragraph {
+        font-size: 11.1px;
+        margin: 11.1px 0 22.2px 0;
+        padding-right: 44.4px;
+        line-height: 16.28px;
+    }
+
+    .our_stat {
+        margin: 44.4px 55.5px 0 0;
+    }
+
+    .stats_num {
+        font-size: 15.54px;
+    }
+
+    .stats_num .stats_word {
+        font-size: 8.14px;
+        margin: 2.96px 0;
+    }
+    
+    .desktop_header {
+        width: 384.8px;
+        height: 300.44px;
+    }
+}
+
+@media (max-width: 1074px) {
+    .container {
+        padding: 65px;
+    }
+    .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;  
+    }
+
+    .card_info {
+        padding: 36px;
+        width: 320px;
+        height: 520px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .text_title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .text_paragraph {
+        font-size: 14px;
+        margin: 11.1px 0 0 0;
+        padding-right: 0;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .our_stat {
+        margin: 34.4px 0 0 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats_num {
+        font-size: 19px;
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    .stats_num .stats_word {
+        font-size: 10px;
+        margin: 2.96px 0;
+    }
+
+    .mobile_header {
+        background-image: linear-gradient(0deg,  hsla(277, 96%, 27%, 0.548), hsla(277, 94%, 35%, 0.6)),
+        url('/images/image-header-mobile.jpg');
+        width: 320px;
+        height: 249.96px;
+        background-size: cover;
+        color: var(--white);
+        border-radius: 10px 10px 0 0;
+    }
+
+    .desktop_header {
+        display: none;
+    }
+    
+}
