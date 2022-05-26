@@ -15,7 +15,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -50,30 +49,11 @@ This is how my solution looks like.
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-
-
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+On this project challenge, I have learned that it is important have a sort of roadmap or plan before to start coding, because no project is that easy to get through it without a basic path to follow up.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would like to mention the HTML Semantic Elements, I didn't know so much about this but I discover how important these elements are to accesibility and I just want to continue implementing them near future, to make sure my code and next projects are easier to understand.
 
 ### Useful resources
 
