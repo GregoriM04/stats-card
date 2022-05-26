@@ -24,9 +24,16 @@ body {
     color: var(--white);
 }
 
+/* HEADER STYLE */
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
 /* MAIN STYLE */
 .container {
-    padding: 90px;
+    padding: 50px 90px;
 }
 
 .card {
@@ -189,7 +196,7 @@ body {
     .container {
         padding: 65px;
     }
-    
+
     .card {
         display: flex;
         align-items: center;
