@@ -29,6 +29,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    text-align: center;
 }
 
 /* MAIN STYLE */
@@ -139,8 +140,11 @@ body {
 
 /* ========== MEDIA QUERY APPLIED ========== */
 @media (min-width: 1440px) {
-    .card {
+    .title {
         margin-top: 135px;
+    }
+    .attribution {
+        font-size: 14.5px;
     }
 }
 
