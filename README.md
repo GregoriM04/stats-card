@@ -58,11 +58,11 @@ I would like to mention the HTML Semantic Elements, I didn't know so much about 
 ### Useful resources
 
 - [W3schoools - HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) - This helped me to understand how to use semantic elements on HTML in a better way.
-- [MYBLUELINUX.COM - Gradient over image](https://www.mybluelinux.com/css-how-add-gradient-over-image/) - With this article I learnd how to use gradient property over an image.
+- [MYBLUELINUX.COM - Gradient over image](https://www.mybluelinux.com/css-how-add-gradient-over-image/) - With this article I learned how to use gradient property over an image.
 
 
 ## Author
 
 - LinkedIn - [Gregori Martinez](https://www.linkedin.com/in/gregorim04/)
 - Frontend Mentor - [@GregoriM04](https://www.frontendmentor.io/profile/GregoriM04)
-- Twitter - [@GregoriM04](https://www.twitter.com/https://twitter.com/GregoriM04)
+- Twitter - [@GregoriM04](https://twitter.com/GregoriM04)
